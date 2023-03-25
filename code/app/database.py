@@ -171,3 +171,26 @@ print(streams)
 #     vento = Database("Vento", "stream")
 #     vento.stream_database()
 """
+import pyrebase
+
+config = {
+  'apiKey': "***REMOVED***",
+  'authDomain': "***REMOVED***",
+  'databaseURL': "***REMOVED***",
+  'projectId': "***REMOVED***",
+  'storageBucket': "***REMOVED***.appspot.com",
+  'messagingSenderId': "483337827811",
+  'appId': "1:483337827811:web:80b8b243ae10e899775cd6"
+}
+
+FIREBASE = pyrebase.initialize_app(config)
+
+db = FIREBASE.database()
+
+path = "/Produtor/Cultura/Meteorologia/grafico"
+
+variaveis = db.child(path).get()
+
+'''for varaivel in .each():
+    print(user.key()) # Morty
+    print(user.val()) # {name": "Mortimer 'Morty' Smith"}'''
