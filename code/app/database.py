@@ -22,7 +22,7 @@ import pyrebase
 
 
 config = {
-  'apiKey': "***REMOVED***",
+  'apiKey': "-----------",
   'authDomain': "***REMOVED***",
   'databaseURL': "***REMOVED***",
   'projectId': "***REMOVED***",
