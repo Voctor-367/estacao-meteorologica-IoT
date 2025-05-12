@@ -23,12 +23,12 @@ import pyrebase
 
 config = {
   'apiKey': "-----------",
-  'authDomain': "***REMOVED***",
-  'databaseURL': "***REMOVED***",
-  'projectId': "***REMOVED***",
-  'storageBucket': "***REMOVED***.appspot.com",
-  'messagingSenderId': "483337827811",
-  'appId': "1:483337827811:web:80b8b243ae10e899775cd6"
+  'authDomain': "---",
+  'databaseURL': "---",
+  'projectId': "---",
+  'storageBucket': "---",
+  'messagingSenderId': "---",
+  'appId': "---"
 }
 
 FIREBASE = pyrebase.initialize_app(config)
